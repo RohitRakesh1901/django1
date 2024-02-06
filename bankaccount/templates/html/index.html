@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h>Bank Account Creation Form</h>
+    <form method = "POST"> 
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">Form Submit</button>
+    </form>
+    {% if param1 %}
+    <h1><strong>{{param1}}</strong></h1>
+    <h1><strong>{{param2}}</strong></h1>
+    {% endif %}
+
+</body>
+</html>
