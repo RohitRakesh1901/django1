@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'bankaccount',
     'color1',
     'colour2',
+    'tables1',
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

@@ -23,5 +23,6 @@ urlpatterns = [
     path('bankaccount',include("bankaccount.urls")),
     path('color1',include("color1.urls")),
     path('colour2',include("colour2.urls")),
+    path('tables1',include("tables1.urls")),
 ]
 
